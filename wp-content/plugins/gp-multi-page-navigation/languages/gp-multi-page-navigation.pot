@@ -1,0 +1,99 @@
+# Copyright (C) 2024 Gravity Wiz
+# This file is distributed under the GPLv2.
+msgid ""
+msgstr ""
+"Project-Id-Version: GP Multi-page Navigation 1.2.10\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/cloned-perk-3TZzNpVXa\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-05-30T01:40:35+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: gp-multi-page-navigation\n"
+
+#. Plugin Name of the plugin
+#: gp-multi-page-navigation.php
+msgid "GP Multi-page Navigation"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: gp-multi-page-navigation.php
+msgid "https://gravitywiz.com/documentation/gravity-forms-multi-page-navigation/"
+msgstr ""
+
+#. Description of the plugin
+#: gp-multi-page-navigation.php
+msgid "Navigate between form pages quickly by converting the page steps into page links or creating your own custom page links."
+msgstr ""
+
+#. Author of the plugin
+#: gp-multi-page-navigation.php
+msgid "Gravity Wiz"
+msgstr ""
+
+#. Author URI of the plugin
+#: gp-multi-page-navigation.php
+msgid "http://gravitywiz.com"
+msgstr ""
+
+#: class-gp-multi-page-navigation.php:17
+#: class-gp-multi-page-navigation.php:112
+msgid "Enable Page Navigation"
+msgstr ""
+
+#: class-gp-multi-page-navigation.php:17
+msgid "Convert the form's page names into clickable links that allow the user to navigation between the pages of the form."
+msgstr ""
+
+#: class-gp-multi-page-navigation.php:18
+#: class-gp-multi-page-navigation.php:118
+msgid "Activation Type"
+msgstr ""
+
+#: class-gp-multi-page-navigation.php:18
+msgid "Specify when the user should be able to navigate between pages and to which pages the user should be able to navigate."
+msgstr ""
+
+#: class-gp-multi-page-navigation.php:122
+msgid "User can navigate to any form page"
+msgstr ""
+
+#: class-gp-multi-page-navigation.php:124
+msgid "User can navigate to any form page..."
+msgstr ""
+
+#: class-gp-multi-page-navigation.php:128
+msgid "they have completed"
+msgstr ""
+
+#: class-gp-multi-page-navigation.php:129
+msgid "from the start"
+msgstr ""
+
+#: class-gp-multi-page-navigation.php:130
+msgid "after reaching the last page"
+msgstr ""
+
+#: class-gp-multi-page-navigation.php:377
+msgid "Back to Last Page"
+msgstr ""
+
+#: class-gp-multi-page-navigation.php:378
+msgctxt "Option to submit multi-page form after validation error"
+msgid "Submit"
+msgstr ""
+
+#: class-gp-multi-page-navigation.php:379
+msgid "Next Page with Errors"
+msgstr ""
+
+#: class-gp-multi-page-navigation.php:444
+msgid "There are multiple pages with errors."
+msgstr ""
+
+#: class-gp-multi-page-navigation.php:445
+msgid "You have been redirected to the first page with errors."
+msgstr ""

@@ -1,0 +1,128 @@
+# Copyright (C) 2023 Gravity PDF Watermark
+# This file is distributed under the same license as the Gravity PDF Watermark package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Gravity PDF Watermark\n"
+"POT-Creation-Date: 2023-09-05 23:47+0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;"
+"_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;"
+"esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 3.3.2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: ../gravity-pdf-watermark.php:97, ../gravity-pdf-watermark.php:97
+msgid ""
+"Gravity PDF Version %s or higher is required to use this add-on. Please "
+"upgrade Gravity PDF to the latest version."
+msgstr ""
+"Gravity PDF versie %s of hoger is vereist om deze add-on te gebruiken. "
+"Gelieve Gravity PDF te upgraden naar de laatste versie."
+
+#: ../gravity-pdf-watermark.php:111, ../gravity-pdf-watermark.php:111
+msgid "Gravity PDF Watermark Installation Problem"
+msgstr "Installatieprobleem met Gravity PDF Watermark"
+
+#: ../gravity-pdf-watermark.php:114, ../gravity-pdf-watermark.php:114
+msgid ""
+"The minimum requirements for the Gravity PDF Watermark plugin have not been "
+"met. Please fix the issue(s) below to continue:"
+msgstr ""
+"Er is niet voldaan aan de minimale vereisten voor de Gravity PDF Watermark "
+"plugin. Los de onderstaande problemen op om verder te gaan:"
+
+#: ../src/Plugins/PdfForGravityView.php:43
+msgid "Enable Watermark?"
+msgstr "Watermerk inschakelen?"
+
+#: ../src/Plugins/PdfForGravityView.php:47
+msgid "Display a text or image watermark in the PDF."
+msgstr "Een tekst- of afbeelding watermerk in de PDF weergeven."
+
+#: ../src/Plugins/PdfForGravityView.php:52,
+#: ../src/Watermark/Options/AddWatermarkFields.php:105,
+#: ../src/Watermark/Options/AddWatermarkFields.php:108
+msgid "Image Watermark"
+msgstr "Afbeelding Watermerk"
+
+#: ../src/Plugins/PdfForGravityView.php:57,
+#: ../src/Watermark/Options/AddWatermarkFields.php:108
+msgid ""
+"For the best results, ensure the image is the same dimensions as the Paper "
+"Size."
+msgstr ""
+"Voor de beste resultaten moet je ervoor zorgen dat de afbeelding dezelfde "
+"afmetingen heeft als het papierformaat."
+
+#: ../src/Plugins/PdfForGravityView.php:62,
+#: ../src/Watermark/Options/AddWatermarkFields.php:114,
+#: ../src/Watermark/Options/AddWatermarkFields.php:116
+msgid "Text Watermark"
+msgstr "Tekst Watermerk"
+
+#: ../src/Plugins/PdfForGravityView.php:67,
+#: ../src/Watermark/Options/AddWatermarkFields.php:116
+msgid ""
+"Any UTF-8 character can be used, provided the Watermark Font supports it."
+msgstr ""
+"Elk UTF-8 teken kan worden gebruikt, mits het Watermerk Lettertype dit "
+"ondersteunt."
+
+#: ../src/Plugins/PdfForGravityView.php:73
+msgid "Watermark Font"
+msgstr "Watermerk Lettertype"
+
+#: ../src/Plugins/PdfForGravityView.php:75
+msgid ""
+"Select the font to use for the Text Watermark. You can install additional "
+"fonts by navigating to Forms -> Settings -> PDF -> Tools in your admin area."
+msgstr ""
+"Selecteer het lettertype dat u wilt gebruiken voor het tekst watermerk. U "
+"kunt extra lettertypes installeren door te navigeren naar Formulieren -> "
+"Instellingen -> PDF -> Extra in uw beheergebied."
+
+#: ../src/Plugins/PdfForGravityView.php:84,
+#: ../src/Watermark/Options/AddWatermarkFields.php:133,
+#: ../src/Watermark/Options/AddWatermarkFields.php:141
+msgid "Opacity"
+msgstr "Doorzichtigheid"
+
+#: ../src/Plugins/PdfForGravityView.php:87,
+#: ../src/Watermark/Options/AddWatermarkFields.php:141
+msgid ""
+"Select a value between 0 and 100 to control the opacity of the watermark. 0 "
+"= completely transparent; 100 = not transparent."
+msgstr ""
+"Selecteer een waarde tussen 0 en 100 om de ondoorzichtigheid van het "
+"watermerk te regelen. 0 = volledig transparant; 100 = niet transparant."
+
+#: ../src/Watermark/Options/AddWatermarkFields.php:94,
+#: ../src/Watermark/Options/AddWatermarkFields.php:97
+msgid "Watermark"
+msgstr "Watermerk"
+
+#: ../src/Watermark/Options/AddWatermarkFields.php:95
+msgid "Enable PDF Watermark"
+msgstr "PDF-watermerk inschakelen"
+
+#: ../src/Watermark/Options/AddWatermarkFields.php:100
+msgid ""
+"Display a text or image watermark in the PDF. When enabled, PDF/A-1b and PDF/"
+"X-1a formats are ignored."
+msgstr ""
+"Een tekst- of afbeelding watermerk in de PDF weergeven. Wanneer deze optie "
+"is ingeschakeld, worden PDF/A-1b- en PDF/X-1a-indelingen genegeerd."
+
+#: ../src/Watermark/Options/AddWatermarkFields.php:122
+msgid "Font"
+msgstr "Lettertype"

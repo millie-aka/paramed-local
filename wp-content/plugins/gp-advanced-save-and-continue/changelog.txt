@@ -1,0 +1,134 @@
+# Changelog
+
+## 1.0.22 | July 31, 2024
+
+- Fixed issue where formatting in Paragraph fields with the Rich Text Editor enabled could lose formatting when resuming drafts.
+- Added new [`gpasc_auto_save_form_data`](https://gravitywiz.com/documentation/gpasc_auto_save_form_data) JavaScript filter hook.
+
+## 1.0.21 | July 24, 2024
+
+- Fixed an issue where Save & Continue tokens would not populate inputs when auto-save was enabled, but auto-load was disabled.
+
+## 1.0.20 | June 26, 2024
+
+- Improved user experience by removing the `gpasc_new_draft` query parameter on page load to avoid loading new drafts on redirects.
+
+## 1.0.19
+
+- Updated the draft deletion message to be translatable.
+
+## 1.0.18
+
+- Fixed issue where Advanced Save & Continue could conflict with GravityImport.
+
+## 1.0.17
+
+- Added support for setting a default Save & Continue email address (requires snippet).
+- Added new filter [gpasc_attach_inline_confirmation_message](https://gravitywiz.com/documentation/gpasc_attach_inline_confirmation_message/) to allow changing how the inline Save & Continue confirmation is attached to the form markup. It is prepended by default.
+- Fixed an issue where form would reset to first page when displaying the Save & Continue confirmation inline.
+- Added `null` check to gaurd against a rare fatal error.
+
+## 1.0.16
+
+- Added support for automatically saving drafts as multi-file upload field values change.
+- Added new [`gpasc_draft_title`](https://gravitywiz.com/gpasc_draft_title) PHP filter hook.
+
+## 1.0.15
+
+- Fixed issue where disabling "Auto Save and Load" while "Hide Save and Continue Link" is still enabled would continue to cause the Save & Continue button to not be displayed contrary to the settings hierarchy.
+
+## 1.0.14
+
+- Fixed issue where `gpasc_new_draft_link_text` filter was only getting applied when draft management was turned off.
+
+## 1.0.13
+
+- Fixed regression where fields populated with GP Populate Anything would not be dynamically populated when this plugin was enabled.
+
+## 1.0.12
+
+- Fixed race condition where occasionally a form would be submitted and a duplicated draft would be created at the same time.
+
+## 1.0.11
+
+- Added `gpasc_new_draft_form_path` filter to allow for filtering the path used for the "Start New Draft" button.
+- Fixed issue on AJAX enabled forms where a new draft would get incorrectly saved upon form submission.
+
+## 1.0.10
+
+- Fixed an issue where visitors who were not logged in would see a prompt, even if Save & Continue was not enabled.
+
+## 1.0.9
+
+- Added `gpasc_auto_save_started` and `gpasc_auto_save_finished` actions to allow doing something when the auto save has started and when it has finished.
+
+## 1.0.8
+
+- Fixed issue where the Advanced Save and Continue UI would be displayed on the GravityView edit entry view.
+
+## 1.0.7
+
+- Fixed issue where auto save requests could cause Save and Continue tokens to be improperly "refreshed" after submitting a form.
+
+## 1.0.6
+
+- Improved auto-save behavior for Paragraph fields, including those using the Rich Text Editor, by continuously listening for `keyup` events and not just the `change` event type.
+- Fixed a variety of issues that could be encountered when using the `user_id` shortcode attribute.
+
+## 1.0.5
+
+- Fixed conflict when editing a parent form entry using Entry Blocks that contains a Nested Form field.
+- Fixed issue where a nonce in `$_GET` would be favored over the nonce in `$_POST` which could cause nonce-related errors when pairing Advanced Save & Continue with Easy Passthrough.
+
+## 1.0.4
+
+- Updated `user_id` shortcode attribute to no longer require the `manage_options` capability in addition to `gravityforms_view_entries` for the current user. Now, it only requires `gravityforms_view_entries`.
+
+## 1.0.3
+
+- Fixed a potential JavaScript error when using the `[gpasc_drafts]` shortcode.
+- Fixed PHP 8 warnings.
+
+## 1.0.2
+
+- Updated to allow disabling "Start new draft" link if falsey value is returned by the `gpasc_new_draft_link_text` filter.
+- Added [gpasc_form_resume_tokens](https://gravitywiz.com/documentation/gpasc_form_resume_tokens/) filter to allow filtering the resume tokens before they are returned.
+
+## 1.0.1
+
+- Added the $display_name and $resume_token_data to the `gpasc_resume_notice_message` to make these variables easier to access.
+
+## 1.0
+
+- Updated the non-authenticated user token storage to use individual cookies for each form rather than one cookie for all forms.
+
+## 1.0-beta-1.3
+
+- Fixed issue where Draft Link line heights were not always consistent.
+- Fixed issue where expired draft would sometimes be autoloaded resulting in a displayed error.
+- Fixed issue where expired draft links would sometimes show up in a draft list.
+- Fixed issue where drafts would not display above form when the "Enable Auto Save and Load" was disabled.
+- Fixed issue where `[gpasc_drafts]` shortcode would sometimes error due to missing frontend scripts.
+- Added reference links to Auto Save / Load setting tooltip for easier discoverability.
+- Added `gpasc_should_auto_load` filter to allow optionally disabling Auto Load globally or on a form by form basis.
+- Added `gpasc_js_init` hook.
+
+## 1.0-beta-1.2
+
+- Added `gpasc_should_defer_autosave_init` filter to defer init and also added a client side Javascript API to enable/disable autosave.
+- Added support to use the default value if a `gpasc_draft_display_name` callback returned an empty value.
+- Improved our detection for logged in users to be a bit more robust and not rely on the `<body>` class.
+- Fixed issue where new drafts would load child entries from the Nested Forms session, incorrectly inheriting them.
+- Fixed issue where a resume token was incorrectly provided to Nested Forms when starting a new draft.
+- Updated `[gpasc_drafts]` to use `shortcode_atts()` which makes it filterable using `shortcode_atts_gasc_drafts`.
+- Added new capabilities to grant/deny access to Advanced Save & Continue settings and to uninstall it.
+- Fixed issue where errors would sometimes be displayed outside of a form context.
+- Fixed the Plugin Site URL pointing to the wrong location.
+
+## 1.0-beta-1.1
+
+- Fixed issue with `autoloader` utility class that would sometimes cause namespace conflicts/critical errors with other plugins.
+
+## 1.0-beta-1
+
+- Hello World!

@@ -1,0 +1,206 @@
+# Copyright (C) 2024 Gravity Wiz
+# This file is distributed under the GPL2.
+msgid ""
+msgstr ""
+"Project-Id-Version: GP Limit Dates 1.1.26\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/cloned-perk-w4YEtxgDb\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-06-27T15:42:10+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: gp-limit-dates\n"
+
+#. Plugin Name of the plugin
+#: gp-limit-dates.php
+msgid "GP Limit Dates"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: gp-limit-dates.php
+msgid "https://gravitywiz.com/documentation/gravity-forms-limit-dates/"
+msgstr ""
+
+#. Description of the plugin
+#: gp-limit-dates.php
+msgid "Limit which days are selectable for your Gravity Forms Date Picker fields."
+msgstr ""
+
+#. Author of the plugin
+#: gp-limit-dates.php
+msgid "Gravity Wiz"
+msgstr ""
+
+#. Author URI of the plugin
+#: gp-limit-dates.php
+msgid "http://gravitywiz.com/"
+msgstr ""
+
+#: class-gp-limit-dates.php:58
+msgid "Invalid Date"
+msgstr ""
+
+#: class-gp-limit-dates.php:88
+#: class-gp-limit-dates.php:115
+msgid "Minimum Date"
+msgstr ""
+
+#: class-gp-limit-dates.php:88
+msgid "Specify the minimum date that can be selected in this field."
+msgstr ""
+
+#: class-gp-limit-dates.php:89
+#: class-gp-limit-dates.php:166
+msgid "Maximum Date"
+msgstr ""
+
+#: class-gp-limit-dates.php:89
+msgid "Specify the maximum date that can be selected in this field."
+msgstr ""
+
+#: class-gp-limit-dates.php:90
+msgid "Date Modifier"
+msgstr ""
+
+#: class-gp-limit-dates.php:90
+msgid "Modify the selected date by adding or subracting days, weeks, months or years.<br><strong>Examples:</strong><code>+1 day</code><br><code>-2 weeks</code><br><code>+3 years</code>"
+msgstr ""
+
+#: class-gp-limit-dates.php:91
+#: class-gp-limit-dates.php:197
+msgid "Days of the Week"
+msgstr ""
+
+#: class-gp-limit-dates.php:91
+msgid "Specify the days of the week for which dates should be selectable."
+msgstr ""
+
+#: class-gp-limit-dates.php:92
+#: class-gp-limit-dates.php:229
+msgid "Exceptions"
+msgstr ""
+
+#: class-gp-limit-dates.php:92
+msgid "Specify any dates that should be excepted from the above rules."
+msgstr ""
+
+#: class-gp-limit-dates.php:93
+#: class-gp-limit-dates.php:148
+msgid "Exclude Dates Before Current Date"
+msgstr ""
+
+#: class-gp-limit-dates.php:93
+msgid "Prevent days that occur before the current date from being selected. Use this option to set a minimum date in the future and have the minimum date automatically adjust as time progresses."
+msgstr ""
+
+#: class-gp-limit-dates.php:94
+msgid "Exclude Dates Before Current Date Modifier"
+msgstr ""
+
+#: class-gp-limit-dates.php:94
+msgid "Modify the current date by adding or subracting days, weeks, months or years.<br><strong>Examples:</strong><code>+1 day</code><br><code>-2 weeks</code><br><code>+3 years</code>"
+msgstr ""
+
+#: class-gp-limit-dates.php:95
+#: class-gp-limit-dates.php:253
+msgid "Inline Date Picker"
+msgstr ""
+
+#: class-gp-limit-dates.php:95
+msgid "Display a full calendar in place of an input."
+msgstr ""
+
+#: class-gp-limit-dates.php:155
+msgid "Current Date Modifier"
+msgstr ""
+
+#: class-gp-limit-dates.php:203
+msgid "All Days"
+msgstr ""
+
+#: class-gp-limit-dates.php:243
+msgid "Add Exception"
+msgstr ""
+
+#: class-gp-limit-dates.php:270
+msgid "Monday"
+msgstr ""
+
+#: class-gp-limit-dates.php:271
+msgid "Mon"
+msgstr ""
+
+#: class-gp-limit-dates.php:275
+msgid "Tuesday"
+msgstr ""
+
+#: class-gp-limit-dates.php:276
+msgid "Tues"
+msgstr ""
+
+#: class-gp-limit-dates.php:280
+msgid "Wednesday"
+msgstr ""
+
+#: class-gp-limit-dates.php:281
+msgid "Wed"
+msgstr ""
+
+#: class-gp-limit-dates.php:285
+msgid "Thursday"
+msgstr ""
+
+#: class-gp-limit-dates.php:286
+msgid "Thur"
+msgstr ""
+
+#: class-gp-limit-dates.php:290
+msgid "Friday"
+msgstr ""
+
+#: class-gp-limit-dates.php:291
+msgid "Fri"
+msgstr ""
+
+#: class-gp-limit-dates.php:295
+msgid "Saturday"
+msgstr ""
+
+#: class-gp-limit-dates.php:296
+msgid "Sat"
+msgstr ""
+
+#: class-gp-limit-dates.php:300
+msgid "Sunday"
+msgstr ""
+
+#: class-gp-limit-dates.php:301
+msgid "Sun"
+msgstr ""
+
+#: class-gp-limit-dates.php:550
+msgid "Please enter a valid date."
+msgstr ""
+
+#: class-gp-limit-dates.php:685
+msgid "Select Date"
+msgstr ""
+
+#: class-gp-limit-dates.php:689
+msgid "Date Fields"
+msgstr ""
+
+#: class-gp-limit-dates.php:694
+msgid "Other"
+msgstr ""
+
+#: class-gp-limit-dates.php:698
+msgid "Set Specific Date"
+msgstr ""
+
+#: class-gp-limit-dates.php:702
+msgid "Current Date"
+msgstr ""

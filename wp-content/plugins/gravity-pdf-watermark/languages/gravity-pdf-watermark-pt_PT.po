@@ -1,0 +1,128 @@
+# Copyright (C) 2023 Gravity PDF Watermark
+# This file is distributed under the same license as the Gravity PDF Watermark package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Gravity PDF Watermark\n"
+"POT-Creation-Date: 2023-09-05 23:47+0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;"
+"_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;"
+"esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 3.3.2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: ../gravity-pdf-watermark.php:97, ../gravity-pdf-watermark.php:97
+msgid ""
+"Gravity PDF Version %s or higher is required to use this add-on. Please "
+"upgrade Gravity PDF to the latest version."
+msgstr ""
+"Para usar este suplemento é necessário a versão Gravity PDF %s ou superior. "
+"Por favor, atualize o Gravity PDF para a versão mais recente."
+
+#: ../gravity-pdf-watermark.php:111, ../gravity-pdf-watermark.php:111
+msgid "Gravity PDF Watermark Installation Problem"
+msgstr "Problema de instalação do Gravity PDF Watermark"
+
+#: ../gravity-pdf-watermark.php:114, ../gravity-pdf-watermark.php:114
+msgid ""
+"The minimum requirements for the Gravity PDF Watermark plugin have not been "
+"met. Please fix the issue(s) below to continue:"
+msgstr ""
+"Os requisitos mínimos para o plug-in Gravity PDF Watermark não foram "
+"atendidos. Corrija o(s) problema(s) abaixo para continuar:"
+
+#: ../src/Plugins/PdfForGravityView.php:43
+msgid "Enable Watermark?"
+msgstr "Ativar marca d'água?"
+
+#: ../src/Plugins/PdfForGravityView.php:47
+msgid "Display a text or image watermark in the PDF."
+msgstr "Exibir uma marca d'água de texto ou imagem no PDF."
+
+#: ../src/Plugins/PdfForGravityView.php:52,
+#: ../src/Watermark/Options/AddWatermarkFields.php:105,
+#: ../src/Watermark/Options/AddWatermarkFields.php:108
+msgid "Image Watermark"
+msgstr "Marca d´água nas imagens"
+
+#: ../src/Plugins/PdfForGravityView.php:57,
+#: ../src/Watermark/Options/AddWatermarkFields.php:108
+msgid ""
+"For the best results, ensure the image is the same dimensions as the Paper "
+"Size."
+msgstr ""
+"Para obter os melhores resultados, verifique se a imagem tem as mesmas "
+"dimensões que o tamanho do papel."
+
+#: ../src/Plugins/PdfForGravityView.php:62,
+#: ../src/Watermark/Options/AddWatermarkFields.php:114,
+#: ../src/Watermark/Options/AddWatermarkFields.php:116
+msgid "Text Watermark"
+msgstr "Marca d'água de texto"
+
+#: ../src/Plugins/PdfForGravityView.php:67,
+#: ../src/Watermark/Options/AddWatermarkFields.php:116
+msgid ""
+"Any UTF-8 character can be used, provided the Watermark Font supports it."
+msgstr ""
+"Qualquer caractere UTF-8 pode ser usado, desde que a fonte da marca d'água "
+"seja compatível com ele."
+
+#: ../src/Plugins/PdfForGravityView.php:73
+msgid "Watermark Font"
+msgstr "Fonte Marca D`Água"
+
+#: ../src/Plugins/PdfForGravityView.php:75
+msgid ""
+"Select the font to use for the Text Watermark. You can install additional "
+"fonts by navigating to Forms -> Settings -> PDF -> Tools in your admin area."
+msgstr ""
+"Selecione a fonte a ser usada para a marca d'água de texto. Você pode "
+"instalar fontes adicionais navegando até Forms -> Settings -> PDF -> Tools "
+"em sua área de administração."
+
+#: ../src/Plugins/PdfForGravityView.php:84,
+#: ../src/Watermark/Options/AddWatermarkFields.php:133,
+#: ../src/Watermark/Options/AddWatermarkFields.php:141
+msgid "Opacity"
+msgstr "Opacidade"
+
+#: ../src/Plugins/PdfForGravityView.php:87,
+#: ../src/Watermark/Options/AddWatermarkFields.php:141
+msgid ""
+"Select a value between 0 and 100 to control the opacity of the watermark. 0 "
+"= completely transparent; 100 = not transparent."
+msgstr ""
+"Selecione um valor entre 0 e 100 para controlar a opacidade da marca d'água. "
+"0 = completamente transparente; 100 = não transparente."
+
+#: ../src/Watermark/Options/AddWatermarkFields.php:94,
+#: ../src/Watermark/Options/AddWatermarkFields.php:97
+msgid "Watermark"
+msgstr "Marca D'água"
+
+#: ../src/Watermark/Options/AddWatermarkFields.php:95
+msgid "Enable PDF Watermark"
+msgstr "Ativar marca d'água em PDF"
+
+#: ../src/Watermark/Options/AddWatermarkFields.php:100
+msgid ""
+"Display a text or image watermark in the PDF. When enabled, PDF/A-1b and PDF/"
+"X-1a formats are ignored."
+msgstr ""
+"Exibir uma marca d'água de texto ou imagem no PDF. Quando ativado, os "
+"formatos PDF/A-1b e PDF/X-1a são ignorados."
+
+#: ../src/Watermark/Options/AddWatermarkFields.php:122
+msgid "Font"
+msgstr "Fonte"

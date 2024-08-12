@@ -1,0 +1,33 @@
+.gpasc-icon-margin-left {
+	margin-left: 5px;
+}
+
+.gpasc-delete-draft-button {
+	background: none;
+	border: none;
+	cursor: pointer;
+}
+
+.gpasc-current-draft .gpasc-delete-draft-button {
+	visibility: hidden;
+	pointer-events: none;
+}
+
+.gpasc-draft-link-content {
+	display: flex;
+	flex-direction: row;
+}
+
+.gpasc-loader-spin {
+	animation: dashicons-spin 1s infinite;
+	animation-timing-function: linear;
+}
+
+@keyframes dashicons-spin {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}

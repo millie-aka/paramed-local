@@ -1,0 +1,256 @@
+# Translation of RocketGenius - Gravity Forms Survey in English (Australia)
+# This file is distributed under the same license as the RocketGenius - Gravity Forms Survey package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-06-27 08:34:13+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-rc.1\n"
+"Language: en_AU\n"
+"Project-Id-Version: RocketGenius - Gravity Forms Survey\n"
+
+#. Author of the plugin
+#: survey.php
+msgid "Gravity Forms"
+msgstr "Gravity Forms"
+
+#: class-gf-survey.php:1255
+msgid "Form"
+msgstr "Form"
+
+#: class-gf-survey.php:1252
+msgid "Date"
+msgstr "Date"
+
+#: class-gf-survey.php:1249
+msgid "Entry ID"
+msgstr "Entry ID"
+
+#: class-gf-survey.php:1241
+msgid "This contact has not submitted any survey entries yet."
+msgstr "This contact has not submitted any survey entries yet."
+
+#: class-gf-survey.php:1210 class-gf-survey.php:1244
+msgid "Survey Entries"
+msgstr "Survey Entries"
+
+#: class-gf-survey.php:1194
+msgid "Rows"
+msgstr "Rows"
+
+#: class-gf-survey.php:1160
+msgid "Columns"
+msgstr "Columns"
+
+#: class-gf-survey.php:1151
+msgid "Drop Down"
+msgstr "Drop Down"
+
+#: class-gf-survey.php:1150
+msgid "Paragraph Text"
+msgstr "Paragraph Text"
+
+#: class-gf-survey.php:1149
+msgid "Single Line Text"
+msgstr "Single Line Text"
+
+#: class-gf-survey.php:1148
+msgid "Checkboxes"
+msgstr "Checkboxes"
+
+#: class-gf-survey.php:1147
+msgid "Radio Buttons"
+msgstr "Radio Buttons"
+
+#: class-gf-survey.php:1146
+msgid "Rating"
+msgstr "Rating"
+
+#: class-gf-survey.php:1145
+msgid "Rank"
+msgstr "Rank"
+
+#: class-gf-survey.php:1144
+msgid "Likert"
+msgstr "Likert"
+
+#: class-gf-survey.php:1109
+msgid "Scoring allows different scores for each column. Aggregate scores are displayed in the results page and can be used in merge tags."
+msgstr "Scoring allows different scores for each column. Aggregate scores are displayed in the results page and can be used in merge tags."
+
+#: class-gf-survey.php:1109 class-gf-survey.php:1171
+msgid "Enable Scoring"
+msgstr "Enable Scoring"
+
+#: class-gf-survey.php:1108
+msgid "Edit the texts that will appear to the left of each row of choices."
+msgstr "Edit the texts that will appear to the left of each row of choices."
+
+#: class-gf-survey.php:1108
+msgid "Likert Rows"
+msgstr "Likert Rows"
+
+#: class-gf-survey.php:1107
+msgid "Select to add multiple rows to the likert field."
+msgstr "Select to add multiple rows to the likert field."
+
+#: class-gf-survey.php:1107 class-gf-survey.php:1187
+msgid "Enable Multiple Rows"
+msgstr "Enable Multiple Rows"
+
+#: class-gf-survey.php:1106
+msgid "Edit the choices for this likert field."
+msgstr "Edit the choices for this likert field."
+
+#: class-gf-survey.php:1106
+msgid "Likert Columns"
+msgstr "Likert Columns"
+
+#: class-gf-survey.php:1105
+msgid "Select the type of field that will be used for the survey."
+msgstr "Select the type of field that will be used for the survey."
+
+#: class-gf-survey.php:1105 class-gf-survey.php:1137
+msgid "Survey Field Type"
+msgstr "Survey Field Type"
+
+#: class-gf-survey.php:1104
+msgid "Enter the question you would like to ask the user."
+msgstr "Enter the question you would like to ask the user."
+
+#: class-gf-survey.php:1104 class-gf-survey.php:1125
+msgid "Survey Question"
+msgstr "Survey Question"
+
+#: class-gf-survey.php:712 class-gf-survey.php:805
+msgid "Survey Total Score"
+msgstr "Survey Total Score"
+
+#: class-gf-survey.php:703
+msgid "Survey Field Score: "
+msgstr "Survey Field Score: "
+
+#: class-gf-survey.php:468
+msgid "Survey Results"
+msgstr "Survey Results"
+
+#: class-gf-survey.php:393
+msgid "Excellent"
+msgstr "Excellent"
+
+#: class-gf-survey.php:392
+msgid "Pretty good"
+msgstr "Pretty good"
+
+#: class-gf-survey.php:390
+msgid "Not so great"
+msgstr "Not so great"
+
+#: class-gf-survey.php:389
+msgid "Terrible"
+msgstr "Terrible"
+
+#: class-gf-survey.php:366
+msgid "Fifth Choice"
+msgstr "Fifth Choice"
+
+#: class-gf-survey.php:365
+msgid "Fourth Choice"
+msgstr "Fourth Choice"
+
+#: class-gf-survey.php:364
+msgid "Third Choice"
+msgstr "Third Choice"
+
+#: class-gf-survey.php:363
+msgid "Second Choice"
+msgstr "Second Choice"
+
+#: class-gf-survey.php:362
+msgid "First Choice"
+msgstr "First Choice"
+
+#: class-gf-survey.php:356
+msgid "Strongly agree"
+msgstr "Strongly agree"
+
+#: class-gf-survey.php:355
+msgid "Agree"
+msgstr "Agree"
+
+#: class-gf-survey.php:354 class-gf-survey.php:391
+msgid "Neutral"
+msgstr "Neutral"
+
+#: class-gf-survey.php:353
+msgid "Disagree"
+msgstr "Disagree"
+
+#: class-gf-survey.php:352
+msgid "Strongly disagree"
+msgstr "Strongly disagree"
+
+#: class-gf-survey.php:351
+msgid "Remove this column"
+msgstr "Remove this column"
+
+#: class-gf-survey.php:350
+msgid "Add another column"
+msgstr "Add another column"
+
+#: class-gf-survey.php:349
+msgid "Remove this row"
+msgstr "Remove this row"
+
+#: class-gf-survey.php:348
+msgid "Add another row"
+msgstr "Add another row"
+
+#: class-gf-survey.php:347
+msgid "Drag to re-order"
+msgstr "Drag to re-order"
+
+#: class-gf-survey.php:346
+msgid "Fifth row"
+msgstr "Fifth row"
+
+#: class-gf-survey.php:345
+msgid "Fourth row"
+msgstr "Fourth row"
+
+#: class-gf-survey.php:344
+msgid "Third row"
+msgstr "Third row"
+
+#: class-gf-survey.php:343
+msgid "Second row"
+msgstr "Second row"
+
+#: class-gf-survey.php:342
+msgid "First row"
+msgstr "First row"
+
+#: class-gf-survey.php:334
+msgid "Untitled Survey Field"
+msgstr "Untitled Survey Field"
+
+#: includes/class-gf-field-survey.php:19
+msgid "Survey"
+msgstr "Survey"
+
+#: includes/class-gf-field-likert.php:169
+msgid "%d of %d items shown. Edit field to view all"
+msgstr "%d of %d items shown. Edit field to view all"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: survey.php
+msgid "https://gravityforms.com"
+msgstr "https://gravityforms.com"
+
+#. Plugin Name of the plugin
+#: survey.php
+msgid "Gravity Forms Survey Add-On"
+msgstr "Gravity Forms Survey Add-On"

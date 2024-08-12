@@ -1,0 +1,340 @@
+
+# Changelog
+
+## 1.1.26 | June 26, 2024
+
+- Updated Inline Datepicker to only trigger conditional logic if it is visible.
+
+## 1.1.25
+
+- Fixed an issue with the `yyyy-mm-dd` format not displaying Minimum and Maximum Dates correctly in the form editor.
+
+## 1.1.24
+
+- Added support for typing in months without separators (e.g. `01012020` instead of `01/01/2020`).
+
+## 1.1.23
+
+- Fixed an issue where the Minimum Date and Maximum Date settings did not use the date format configured on the field.
+- Updated references to `String.prototype.format()` to use `String.prototype.gformFormat()` as the former will be removed in Gravity Forms 2.8.
+
+## 1.1.22
+
+- Fixed compatibility issue with Populate Anything where inline datepickers inside date fields that are refreshed dynamically would not work.
+- Fixed potential PHP 8.1 warnings.
+
+## 1.1.21
+
+- Added support for weekday(s) keyword support when specifying min/max date modifiers. Credit: Dominik Schilling (required.com)
+
+## 1.1.20
+
+- Fixed potential PHP warnings.
+
+## 1.1.19
+
+- Fixed issues where the `gpld_disable_inline_date_picker_default_date` filter would not work with conditional logic or default values.
+
+## 1.1.18
+
+- Fixed an issue where Formatted Date for Exceptions was not displayed.
+
+## 1.1.17
+
+- Added new [`gpld_disable_inline_date_picker_default_date`](https://gravitywiz.com/documentation/gpld_disable_inline_date_picker_default_date) PHP filter to disable automatically selecting a date when using the Inline Date Picker.
+
+## 1.1.16
+
+- Added dynamic classes to datepicker dates; allows styles to be applied depending on why a date is disabled.
+- Fixed issue where inline datepickers were not rendered in Gravity Forms 2.7.
+
+## 1.1.15
+
+- Fixed JavaScript error that could prevent forms from showing in some cases.
+
+## 1.1.14
+
+- Fixed a JavaScript error that could occur when setting default dates on Inline Datepickers in forms with conditional logic.
+
+## 1.1.13
+
+- Added German translations. Credit: Florian Rinnhofer of sportunion.at
+- Fixed issue where exceptions were being ordered incorrectly.
+
+## 1.1.12
+
+- Updated Exceptions to be ordered by date (ascending).
+- Updated Exceptions to be formatted according to the field's selected date format.
+
+## 1.1.11
+
+- Fixed issue where incorrect remaining inventory from GF Inventory would show on initial render with inline date picker.
+
+## 1.1.10
+
+- Fixed an issue where conditional logic dependent on inline datepickers wouldn't work in some situations on multi-page forms.
+
+## 1.1.9
+
+- Fixed issue with GP Read Only where the Datepicker would be initialized more than once causing a flash of unstyled content when using Legacy Markup.
+- Added "Update URI" to plugin header to improve security.
+
+## 1.1.8
+
+- Fixed regression where having an empty minimum date could cause the form to lock up.
+
+## 1.1.7
+
+- Improved minimum date to be the first selectable date in the range.
+
+## 1.1.6
+
+- Fixed an issue where back-end validation did not match the front-end when excepted dates fall outside of minimum or maximum dates defined.
+
+## 1.1.5
+
+- Added support for responsively downsizing the datepicker.
+
+## 1.1.4
+
+- Added [gpld_after_set_max_date](https://gravitywiz.com/documentation/gpld_after_set_max_date/)
+
+## 1.1.3
+
+- Fixed an issue where GPPA and GPCC would not copy values from inline date pickers on page load.
+
+## 1.0.26
+
+- Added gp-limit-dates.css for GF 2.5.. Updated inline datepicker style in GF 2.5 to remove drop shadow.
+- Added support for 2.5.
+- Updated admin scripts/styles to be enqueued as separate files rather than output inline.
+- Updated field setting markup, styles, and JS to work better in GF 2.5.
+- Updated field setting styles in GF 2.4 to work with the new markup.
+- Fixed issue where Inline Datepicker did not have the new GF datepicker theme applied automatically.
+
+## 1.1.2
+
+- Fixed an issue where second and subsequent inline date pickers may not render on a form.
+
+## 1.1.1
+
+- Fixed an issue where Inline Datepickers were not always populated with the correct default value.
+
+## 1.1
+
+- Added support for Gravity Forms 2.5.
+- Updated admin scripts/styles to be enqueued as separate files rather than output inline.
+- Updated field setting markup, styles, and JS to work better in GF 2.5.
+- Updated field setting styles in GF 2.4 to work with the new markup.
+- Updated inline datepicker style in GF 2.5 to remove drop shadow.
+- Fixed issue where Inline Datepicker did not have the new GF datepicker theme applied automatically.
+
+## 1.0.25
+
+- Fixed a potential integration issue with GPPA and GPRO.
+
+## 1.0.24
+
+- Updated data flag to gpldIgnoreChange so it could be used in more contexts.
+- Added support for triggering onSelect functionality when the Date field's value changes.
+
+## 1.0.23
+
+- Fixed an issue where a deleted field may cause GPLD to fail to render.
+
+## 1.0.22
+
+- Added [gpld_invalid_date_error](http://gravitywiz.com/documentation/gpld_invalid_date_error/) JavaScript filter.
+
+## 1.0.21
+
+- Fixed an issue where date format was parsed incorrectly.
+
+## 1.0.20
+
+- Fixed noticed generated when invalid form is passed via GF filters.
+- Updated plugin author.
+
+## 1.0.19
+
+- Added JS filter: gpld_after_set_min_date; supports functionality such as populating the new minimum date into the field and opening the datepicker in Field B after a date has been selected in Field A.
+
+## 1.0.18
+
+- Fixed fatal error that occurred when honey pot was enabled on form with Limit Dates active.
+
+## 1.0.17
+
+- Added GP_Limit_Dates::get_limit_dates_field_options method to ensure that the generic "gpld_limit_dates_options" filter was applied when fetching options for a single field.
+
+## 1.0.16
+
+- Added fix to resolve issue where min/max dates were not set for Inline Datepickers after an AJAX-submission.
+
+## 1.0.15
+
+- Fixed issue where inline datepickers did not correctly show first selectable date.
+
+## 1.0.14
+
+- Fixed issue where inline datepickers did not currently display selected date when rendered while hidden (via conditional logic).
+
+## 1.0.13
+
+- Fixed issue with 2.4 and new $field->fields property.
+
+## 1.0.12
+
+- Added support for script/style minification.
+- Added support for GP Limit Dates inline datepicker.
+
+## 1.0.11
+
+- Fixed issue where change event was not triggered for inline datepickers when new min/max date was set.
+
+## 1.0.10
+
+- Fixed notice generated with PHP 7.2 when days of the week setting was not defined as an array.
+
+## 1.0.9
+
+- Fixed bug introduced in 1.0.8 where minDate field-based dependencies were accounted for but maxDate's were not.
+
+## 1.0.8
+
+- Added support for automatically setting Date field minDate by the minDate of the Date field on which it's minDate is dependent.
+
+## 1.0.7
+
+- Fixed issue where default value in Date Field A did not correctly set the minimum date for Date Field B when configured to do so.
+
+## 1.0.6
+
+- Fixed issue where manually entered dates were not correctly validated on input change event.
+
+## 1.0.5
+
+    - Fixed issue where conditional logic was not working when dependent on any Date field which used the onSelect event.
+
+## 1.0.4
+
+    - Fixed issue where conditional logic was not working when dependent on an Inline Date Picker.
+
+## 1.0.3
+
+    - Fixed issue introduced in 1.0.2 where an error was generated if the datepicker was reponsible for setting the min/max on more than one Date field.
+
+## 1.0.2
+
+    - Fixed issue where inline datepicker did not automatically updated min/max date when targeted by another Date field.
+
+## 1.0.1
+
+    - Fixed issue where inline datepicker did not work for any date format other than mm/dd/yyyy.
+
+## 1.0
+
+    - Added support for inline datepicker.
+    - Updated admin UI styles.
+
+## 1.0.beta2.12
+
+    - Fixed conflict caused by Gravity Slider's jquery.nouislider.all.js file
+
+## 1.0.beta2.11
+
+    - Added gpld_modified_date JS filter to allow 3rd party modifications to any modified date
+
+## 1.0.beta2.9
+
+    - Added support for disableAll property on date option data; allows all dates to be disabled by default.
+
+## 1.0.beta2.8
+
+- Fixed issue where jQuery was used instead of $ inside gp-limit-dates.js
+
+## 1.0.beta2.7
+
+    - Fixed issue introduced by WordPress 4.6 where admin datepickers are localized by default causing date to be in an unexpected format
+
+## 1.0.beta2.6
+
+    - Fixed issue where deleted date fields still set as min/max date for another date field would generate a JS error
+
+## 1.0.beta2.5
+
+- Updated 'gp-limit-dates.js' to be enqueued in footer; resolves conflict with GP Nested Forms
+
+## 1.0.beta2.4
+
+- Added support for "exceptionMode" via 'gpld_limit_dates_options' filter; allows modifing how excepted dates are handled (blocked, enabled, reversed).
+
+## 1.0.beta2.3
+
+- Updated to make gform_datepicker_options_pre_init filter more bullet proof
+
+## 1.0.beta2.2
+
+- Added new filter: gpld_date_value
+		add_filter( 'gpld_date_value', function( $date, $field, $key, $options ) {
+			return $date;
+		}, 10, 4 );
+- Added GP_Limit_Dates::is_valid_timestamp() function
+- Updated GPLimitDates.gpld_date_value() method to pass the data and fieldId parameters
+
+## 1.0.beta2.1
+
+- Added new filter: gpld_has_limit_dates_enabled
+		add_filter( 'gpld_has_limit_dates_enabled', function( $result, $field ) {
+			return false;
+		}, 10, 2 );
+
+## 1.0.beta2.0
+
+    - Fixed issue where empty date fields w/ limit date features enabled returned a validation error
+    - Updated to use GP_Bootstrap
+
+## 1.0.beta1.9
+
+- Updated onClose override to account for other functions that have also specified an onClose function for the datepicker
+
+## 1.0.beta1.8
+
+- Fixed issue where field ID and specific dates were converted to server time which could result in incorrect date limits; updated to only convert {today}-based dates to server time
+
+## 1.0.beta1.7
+
+- Fixed issue where setting limit date options via the 'gpld_limit_dates_options' filter did not activate limit dates functionality for the form if there were no options already configured for the field.
+
+## 1.0.beta1.6
+
+- Fixed styling issue where date selects (in UI) were too large when Date fields had very long labels
+
+## 1.0.beta1.5
+
+- Added $form and $field objects as parameters to the 'gpld_limit_dates_options' filter
+- Added support for 'Exclude Before Today' option when min date setting is configured for 'Specific Date'; allows specifying a future minimum date and having minimum date automatically adjust as time progresses
+
+## 1.0.beta1.4
+
+- Fixed issue where dates in dmy format would return invalid date validation error
+- Fixed issue where date fields with min/max set by another date field with a dmy format would not have the min/max set correctly when a validation error is returned on any form field
+
+## 1.0.beta1.3
+
+- Fixed issue where days of week validation was sometimes not stored in correct format
+- Fixed issue where PHP date validation failed for non-US dates (in some cases)
+- Added support for allowing multiple date fields to have min/max date fields based on the same date field
+
+## 1.0.beta1.2
+
+    - Fixed issue where dates in dmy format where not validated correctly (on submission)
+    - Fixed issue where field settings appeared briefly while form editor was loading
+
+## 1.0.beta1.1
+
+    - Fixed issue where if Sunday was the only day of the week, no limit was applied
+
+## 1.0.beta1.0
+
+    - Limit those dates!

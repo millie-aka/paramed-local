@@ -1,0 +1,28 @@
+.gpasc-manage-settings-link {
+	margin-left: 1rem;
+	vertical-align: middle;
+}
+
+/*
+ * Shortcode Copier Styles
+*/
+.gpasc-shortcode-copier-wrapper {
+	display: grid;
+	grid-template-columns: [text] auto [button] 170px;
+	grid-column-gap: 16px;
+}
+
+#gpasc-copy-shortcode-text {
+	color: #23282d;
+}
+
+#gpasc-copy-shortcode-button {
+	height: 44px;
+	line-height: 44px;
+	padding: 0px;
+}
+
+#gpasc-copy-shortcode-button span.dashicons {
+	margin-right: .5rem;
+	line-height: 44px;
+}

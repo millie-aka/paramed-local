@@ -1,0 +1,119 @@
+# Copyright (C) 2023 Gravity PDF Watermark
+# This file is distributed under the same license as the Gravity PDF Watermark package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Gravity PDF Watermark\n"
+"POT-Creation-Date: 2023-09-05 23:47+0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;"
+"_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;"
+"esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 3.3.2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: ../gravity-pdf-watermark.php:97, ../gravity-pdf-watermark.php:97
+msgid ""
+"Gravity PDF Version %s or higher is required to use this add-on. Please "
+"upgrade Gravity PDF to the latest version."
+msgstr ""
+"使用此附加组件需要Gravity PDF版本%s或更高版本。请将Gravity PDF升级到最新版"
+"本。"
+
+#: ../gravity-pdf-watermark.php:111, ../gravity-pdf-watermark.php:111
+msgid "Gravity PDF Watermark Installation Problem"
+msgstr "Gravity PDF Watermark 安装问题"
+
+#: ../gravity-pdf-watermark.php:114, ../gravity-pdf-watermark.php:114
+msgid ""
+"The minimum requirements for the Gravity PDF Watermark plugin have not been "
+"met. Please fix the issue(s) below to continue:"
+msgstr "Gravity PDF Watermark 插件未达到最低要求。请修复以下问题以继续："
+
+#: ../src/Plugins/PdfForGravityView.php:43
+msgid "Enable Watermark?"
+msgstr "启用水印？"
+
+#: ../src/Plugins/PdfForGravityView.php:47
+msgid "Display a text or image watermark in the PDF."
+msgstr "在 PDF 中显示文本或图像水印。"
+
+#: ../src/Plugins/PdfForGravityView.php:52,
+#: ../src/Watermark/Options/AddWatermarkFields.php:105,
+#: ../src/Watermark/Options/AddWatermarkFields.php:108
+msgid "Image Watermark"
+msgstr "图像水印"
+
+#: ../src/Plugins/PdfForGravityView.php:57,
+#: ../src/Watermark/Options/AddWatermarkFields.php:108
+msgid ""
+"For the best results, ensure the image is the same dimensions as the Paper "
+"Size."
+msgstr "为获得最佳效果，请确保图像的尺寸与纸张尺寸相同。"
+
+#: ../src/Plugins/PdfForGravityView.php:62,
+#: ../src/Watermark/Options/AddWatermarkFields.php:114,
+#: ../src/Watermark/Options/AddWatermarkFields.php:116
+msgid "Text Watermark"
+msgstr "文本水印"
+
+#: ../src/Plugins/PdfForGravityView.php:67,
+#: ../src/Watermark/Options/AddWatermarkFields.php:116
+msgid ""
+"Any UTF-8 character can be used, provided the Watermark Font supports it."
+msgstr "只要水印字体支持，任何 UTF-8 字符都可以使用。"
+
+#: ../src/Plugins/PdfForGravityView.php:73
+msgid "Watermark Font"
+msgstr "水印字体"
+
+#: ../src/Plugins/PdfForGravityView.php:75
+msgid ""
+"Select the font to use for the Text Watermark. You can install additional "
+"fonts by navigating to Forms -> Settings -> PDF -> Tools in your admin area."
+msgstr ""
+"选择文本水印要使用的字体。您可以在管理区导航至表单 -> 设置 -> PDF -> 工具，安"
+"装其他字体。"
+
+#: ../src/Plugins/PdfForGravityView.php:84,
+#: ../src/Watermark/Options/AddWatermarkFields.php:133,
+#: ../src/Watermark/Options/AddWatermarkFields.php:141
+msgid "Opacity"
+msgstr "不透明度"
+
+#: ../src/Plugins/PdfForGravityView.php:87,
+#: ../src/Watermark/Options/AddWatermarkFields.php:141
+msgid ""
+"Select a value between 0 and 100 to control the opacity of the watermark. 0 "
+"= completely transparent; 100 = not transparent."
+msgstr ""
+"在 0 和 100 之间选择一个值来控制水印的不透明度。0 = 完全透明；100 = 不透明。"
+
+#: ../src/Watermark/Options/AddWatermarkFields.php:94,
+#: ../src/Watermark/Options/AddWatermarkFields.php:97
+msgid "Watermark"
+msgstr "水印"
+
+#: ../src/Watermark/Options/AddWatermarkFields.php:95
+msgid "Enable PDF Watermark"
+msgstr "启用 PDF 水印"
+
+#: ../src/Watermark/Options/AddWatermarkFields.php:100
+msgid ""
+"Display a text or image watermark in the PDF. When enabled, PDF/A-1b and PDF/"
+"X-1a formats are ignored."
+msgstr ""
+"在 PDF 中显示文本或图像水印。启用后，PDF/A-1b 和 PDF/X-1a 格式将被忽略。"
+
+#: ../src/Watermark/Options/AddWatermarkFields.php:122
+msgid "Font"
+msgstr "字体"
